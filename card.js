@@ -301,7 +301,7 @@ optionsString = optionsString.substring(0,180) + "...";
 		var me = this;
 		
 		
-		if( me.currency !== BRL && me.currency !== GBP ){
+		if( me.currency !== BRL && me.currency !== BRL ){
 			error( "Google Checkout only allows the USD and GBP for currency.");
 			return;
 		} else if( me.merchantId === "" || me.merchantId === null || !me.merchantId ){
@@ -689,6 +689,7 @@ optionsString = optionsString.substring(0,180) + "...";
 			case THB: 
 				return "&#3647;";
 			case BRL:
+				return "BRL&nbsp;";
 			case USD:
 			case CAD:
 			case AUD:
