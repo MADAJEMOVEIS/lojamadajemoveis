@@ -301,7 +301,7 @@ optionsString = optionsString.substring(0,180) + "...";
 		var me = this;
 		
 		
-		if( me.currency !== USD && me.currency !== GBP ){
+		if( me.currency !== BRL && me.currency !== GBP ){
 			error( "Google Checkout only allows the USD and GBP for currency.");
 			return;
 		} else if( me.merchantId === "" || me.merchantId === null || !me.merchantId ){
