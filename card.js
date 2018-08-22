@@ -782,7 +782,7 @@ optionsString = optionsString.substring(0,180) + "...";
 				Language managment
 	 ******************************************************/
 	me.ln = {
-		"en_us": {
+		"pt_br": {
 			  quantity: "Quantity"
 			, price: "Price"
 			, total: "Total"
@@ -795,7 +795,7 @@ optionsString = optionsString.substring(0,180) + "...";
 		} 
 	};
 	
-	me.language = "en_us"; 
+	me.language = "pt_br"; 
 	
 	me.print = function( input ) {
 		var me = this;
