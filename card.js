@@ -688,6 +688,7 @@ optionsString = optionsString.substring(0,180) + "...";
 				return "CHF&nbsp;";
 			case THB: 
 				return "&#3647;";
+			case BRL:
 			case USD:
 			case CAD:
 			case AUD:
